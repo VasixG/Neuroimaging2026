@@ -1,6 +1,8 @@
-# Experiment tracking
+# Experiment tracking: internal logging dashboard
 
 Saved configurations, training histories, metrics and diagnostic figures. We use this page to navigate our saved run records.
+
+[HER2match runs and curves](#her2match-runs-and-curves) · [MIST-HER2 evaluation](#evaluation-summary) · [MIST-HER2 run records](#runs-and-artifacts) · [Failure examples](#failure-examples)
 
 ## Hosted runs
 
@@ -10,6 +12,24 @@ Saved configurations, training histories, metrics and diagnostic figures. We use
 - [exact-ot-cfm: run 2](https://www.kaggle.com/code/marritau/ot-cfm-evaluation)
 - [dab-sampling: run 1](https://www.kaggle.com/code/marritau/sampling-ablations)
 - [error-audit: run 1](https://www.kaggle.com/code/marritau/error-audit)
+
+## HER2match runs and curves
+
+We compare five runs on the same 252 selected pairs (63 per slide-level HER2 score). This is an exploratory follow-up on an already inspected test cohort, not an independent confirmation. [Selection and scope](../HER2Match/results/her2match/selection.json) · [Notebook and run instructions](../HER2Match/README.md)
+
+![HER2match training and validation curves](../HER2Match/results/her2match/figures/all_five_training.jpg)
+
+| Run | SSIM ↑ | FID ↓ | KID ×1000 ↓ | Config | Metrics | Training history |
+|---|---:|---:|---:|---|---|---|
+| noise cfm | 0.3192 | 221.79 | 218.74 | [JSON](../HER2Match/results/her2match/runs/noise_cfm/recorded_config.json) | [JSON](../HER2Match/results/her2match/runs/noise_cfm/recorded_metrics.json) | [CSV.gz](../HER2Match/results/her2match/runs/noise_cfm/history.csv.gz) |
+| direct cfm | 0.3968 | 151.32 | 99.04 | [JSON](../HER2Match/results/her2match/runs/direct_cfm/recorded_config.json) | [JSON](../HER2Match/results/her2match/runs/direct_cfm/recorded_metrics.json) | [CSV.gz](../HER2Match/results/her2match/runs/direct_cfm/history.csv.gz) |
+| direct cfm lpips | 0.3880 | 131.26 | 81.47 | [JSON](../HER2Match/results/her2match/runs/direct_cfm_lpips/recorded_config.json) | [JSON](../HER2Match/results/her2match/runs/direct_cfm_lpips/recorded_metrics.json) | [CSV.gz](../HER2Match/results/her2match/runs/direct_cfm_lpips/history.csv.gz) |
+| direct cfm stain sampling | 0.4085 | 158.09 | 113.04 | [JSON](../HER2Match/results/her2match/runs/direct_cfm_stain_sampling/recorded_config.json) | [JSON](../HER2Match/results/her2match/runs/direct_cfm_stain_sampling/recorded_metrics.json) | [CSV.gz](../HER2Match/results/her2match/runs/direct_cfm_stain_sampling/history.csv.gz) |
+| direct cfm stain loss | 0.3902 | 150.93 | 98.67 | [JSON](../HER2Match/results/her2match/runs/direct_cfm_stain_loss/recorded_config.json) | [JSON](../HER2Match/results/her2match/runs/direct_cfm_stain_loss/recorded_metrics.json) | [CSV.gz](../HER2Match/results/her2match/runs/direct_cfm_stain_loss/history.csv.gz) |
+
+[Per-class metrics](../HER2Match/results/her2match/per_class_comparison.csv) · [Staining and reconstruction metrics](../HER2Match/results/her2match/comparison.csv) · [Fixed image comparisons](../HER2Match/results/her2match/figures/) · [Run provenance](../HER2Match/results/her2match/provenance.json)
+
+Each run directory also includes per-image and staining metrics. The compressed CSV files contain the original training histories; the figure above provides a quick visual overview.
 
 ## Evaluation summary
 

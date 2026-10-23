@@ -2,11 +2,12 @@
 
 **NeuroML 2026 final project · Staining Flow Swimmers**
 
-We study H&E-to-HER2 image translation with Flow Matching. The experiments test whether changes to the transport path, image conditioning and training-pair sampling improve tissue structure and staining. This repository documents our **MIST-HER2 experiments**.
+We study H&E-to-HER2 image translation with Flow Matching. The experiments test whether changes to the transport path, image conditioning and training-pair sampling improve tissue structure and staining. Our experiments cover **MIST-HER2 and HER2match**.
 
 ## Start here
 
-- **[Experiment tracking: runs, configs, logs, metrics and artifacts](docs/experiment-tracking.md)**
+- **[Experiment tracking — internal logging dashboard](docs/experiment-tracking.md)**
+  Key runs, configurations, learning curves, metrics and artifacts for both datasets; readable directly on GitHub.
 - **[Written report](docs/report.md)**
 - **[Presentation](docs/NEUROML-2.pdf)**
 - [Reproduction guide](docs/reproduction.md)
@@ -16,6 +17,7 @@ We study H&E-to-HER2 image translation with Flow Matching. The experiments test 
 
 | Folder | Question | Evidence |
 |---|---|---|
+| [HER2match: five controlled runs](HER2Match/) | How do direct transport, LPIPS and stain-aware changes affect aligned pairs? | Recorded configs, training histories, metrics and image comparisons on 252 selected pairs |
 | [baseline](mist-her2/baseline/) | Does noise-conditioned CFM use H&E effectively? | Notebook logs and example images |
 | [crop-256](mist-her2/crop-256/) | Does a smaller crop improve local agreement? | Exported metric and DAB figures |
 | [vp-cfm](mist-her2/vp-cfm/) | Does a variance-preserving path help? | Training history and full-test metrics |
