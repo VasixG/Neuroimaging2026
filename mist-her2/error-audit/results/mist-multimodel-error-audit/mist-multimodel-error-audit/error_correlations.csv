@@ -1,0 +1,11 @@
+model,predictor,outcome,spearman_rho,p_value
+CFM baseline 256,nuclear_ssim_aligned,ssim,0.42884035670162746,2.3819926799064526e-48
+CFM baseline 256,translation_magnitude_256,ssim,-0.06414025370805647,0.03743209991931587
+CFM baseline 256,real_dab_fraction,dab_fraction_abs_error,0.9481618991873989,0.0
+CFM baseline 256,real_dab_fraction,dab_fraction_signed_error,-0.9824813665079413,0.0
+CFM baseline 256,he_pred_nuclear_ssim,ssim,0.3561773408022713,7.50854771698981e-33
+VP-CFM 512,nuclear_ssim_aligned,ssim,0.3958529958847417,7.852591326960016e-41
+VP-CFM 512,translation_magnitude_256,ssim,-0.0584362032340052,0.05801026689030432
+VP-CFM 512,real_dab_fraction,dab_fraction_abs_error,0.7897034777681926,3.006387918727452e-225
+VP-CFM 512,real_dab_fraction,dab_fraction_signed_error,-0.96085995948824,0.0
+VP-CFM 512,he_pred_nuclear_ssim,ssim,0.2194218946262582,6.03494326608936e-13

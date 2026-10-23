@@ -1,0 +1,2 @@
+https://www.kaggle.com/code/marritau/variance-preserving
+https://www.kaggle.com/code/marritau/vp-cfm-generation-metrics

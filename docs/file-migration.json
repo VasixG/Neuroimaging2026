@@ -1,0 +1,232 @@
+[
+  {
+    "original": "exps/base/baseline.ipynb",
+    "current": "mist-her2/baseline/baseline.ipynb",
+    "sha256": "585614496f8fe32a4524e3c0da01ad9902d4a052bf2c12b99707131912d30580"
+  },
+  {
+    "original": "exps/base/example-0 (1).png",
+    "current": "mist-her2/baseline/example-0 (1).png",
+    "sha256": "0d0763f6efc9cf7fe0728314b91a9f17af434428970dac27e341d46ab62cbe86"
+  },
+  {
+    "original": "exps/base/example-1.png",
+    "current": "mist-her2/baseline/example-1.png",
+    "sha256": "33b860c16dc763ff21df862fb3cb03fbfa0673f5eb39151ac655bf580d29cd0f"
+  },
+  {
+    "original": "exps/base_OT/metrics.json",
+    "current": "mist-her2/ot-cfm-preview/metrics.json",
+    "sha256": "98c6909bdf5eaf2ca8928b8ac8593be4a0839dbce983b20f9e31592b8a9dfb85"
+  },
+  {
+    "original": "exps/base_OT/example-1.png",
+    "current": "mist-her2/ot-cfm-preview/example-1.png",
+    "sha256": "edbddeb2ff07e60e80d73a7f6d5b5e9ca032ac34b248835ccdc4070a22e14bab"
+  },
+  {
+    "original": "exps/base_OT/example-0.png",
+    "current": "mist-her2/ot-cfm-preview/example-0.png",
+    "sha256": "6a547dd0dd1e274d8944db6ab43ea274ef52bd51508b518b637dcc5824417dd4"
+  },
+  {
+    "original": "exps/base_OT/base_OT.ipynb",
+    "current": "mist-her2/ot-cfm-preview/base_OT.ipynb",
+    "sha256": "dae9a17a1dd3e1bcb65c427f8c9d0c36abb377d57131e8f5777bf5c0921c40c7"
+  },
+  {
+    "original": "exps/base_OT/example-2.png",
+    "current": "mist-her2/ot-cfm-preview/example-2.png",
+    "sha256": "2479c23a95cccc50a1acff37dce593913806f9f2cdfc8f50ed51c275154c632a"
+  },
+  {
+    "original": "exps/base_OT/example-3.png",
+    "current": "mist-her2/ot-cfm-preview/example-3.png",
+    "sha256": "3a7bc597a502b2f2d9ab10076242e764180c8464cbd6fee5d4472e4ea1f71ca2"
+  },
+  {
+    "original": "exps/base_direct_OT/metrics.json",
+    "current": "mist-her2/archive/ot-cfm-duplicate/metrics.json",
+    "sha256": "98c6909bdf5eaf2ca8928b8ac8593be4a0839dbce983b20f9e31592b8a9dfb85"
+  },
+  {
+    "original": "exps/base_direct_OT/baseline_direct_OT.ipynb",
+    "current": "mist-her2/archive/ot-cfm-duplicate/baseline_direct_OT.ipynb",
+    "sha256": "dae9a17a1dd3e1bcb65c427f8c9d0c36abb377d57131e8f5777bf5c0921c40c7"
+  },
+  {
+    "original": "exps/base_direct_OT/example-1.png",
+    "current": "mist-her2/archive/ot-cfm-duplicate/example-1.png",
+    "sha256": "edbddeb2ff07e60e80d73a7f6d5b5e9ca032ac34b248835ccdc4070a22e14bab"
+  },
+  {
+    "original": "exps/base_direct_OT/example-0.png",
+    "current": "mist-her2/archive/ot-cfm-duplicate/example-0.png",
+    "sha256": "6a547dd0dd1e274d8944db6ab43ea274ef52bd51508b518b637dcc5824417dd4"
+  },
+  {
+    "original": "exps/base_direct_OT/example-2.png",
+    "current": "mist-her2/archive/ot-cfm-duplicate/example-2.png",
+    "sha256": "2479c23a95cccc50a1acff37dce593913806f9f2cdfc8f50ed51c275154c632a"
+  },
+  {
+    "original": "exps/base_direct_OT/example-3.png",
+    "current": "mist-her2/archive/ot-cfm-duplicate/example-3.png",
+    "sha256": "3a7bc597a502b2f2d9ab10076242e764180c8464cbd6fee5d4472e4ea1f71ca2"
+  },
+  {
+    "original": "exps/base_embeddings/metrics.json",
+    "current": "mist-her2/phikon-guidance/metrics.json",
+    "sha256": "8f217ab59b065d4bc240c56eaee0e18ab0e375459e1aca82aab59f9322d95b59"
+  },
+  {
+    "original": "exps/base_embeddings/baseline_embeddings.ipynb",
+    "current": "mist-her2/phikon-guidance/baseline_embeddings.ipynb",
+    "sha256": "8e436a9fd25c7a2a00b7321f4ead3f5b96a42df3f6dae1171bc05bc3bde52943"
+  },
+  {
+    "original": "exps/base_embeddings/example-1.png",
+    "current": "mist-her2/phikon-guidance/example-1.png",
+    "sha256": "66fc63f0c144fc6dcef2ca509199326c84bbf14fd23a16bfd1afb33165a9a805"
+  },
+  {
+    "original": "exps/base_embeddings/example-0.png",
+    "current": "mist-her2/phikon-guidance/example-0.png",
+    "sha256": "7914dfb17c8aa01f9c62758dd078eb84efb0120eba2cf0e665ad0b367cebfa7b"
+  },
+  {
+    "original": "exps/base_embeddings/example-2.png",
+    "current": "mist-her2/phikon-guidance/example-2.png",
+    "sha256": "a4ba8cc27186942f8bea54ecaeee48bd342869d5f2dfd6640d0a00d74923010d"
+  },
+  {
+    "original": "exps/base_embeddings/example-3.png",
+    "current": "mist-her2/phikon-guidance/example-3.png",
+    "sha256": "f86004776b8cb1f2e6fb32a4bc069a260b5e7f4bdb2804b2668419269f5ce2bd"
+  },
+  {
+    "original": "exps/direct_embeddings/metrics.json",
+    "current": "mist-her2/direct-phikon/metrics.json",
+    "sha256": "a496e68b52e7da722ea64ada8c0d20d9310c0ae424e12271018f517f4c31e095"
+  },
+  {
+    "original": "exps/direct_embeddings/direct_embeddings.ipynb",
+    "current": "mist-her2/direct-phikon/direct_embeddings.ipynb",
+    "sha256": "efe6826636db534f73a5696d02a1e40c658c9074a2e757cf84f29fc42866d3fc"
+  },
+  {
+    "original": "exps/direct_embeddings/example-3 (1).png",
+    "current": "mist-her2/direct-phikon/example-3 (1).png",
+    "sha256": "bd70e889eb8df58de5e46313640ed1148f5d6105431a20e22cf04388055fe79e"
+  },
+  {
+    "original": "exps/direct_embeddings/example-1.png",
+    "current": "mist-her2/direct-phikon/example-1.png",
+    "sha256": "51e967edc18d861a522c2fb7e0804eb7183a2e1fcc63c7d6d8e2710381922b6a"
+  },
+  {
+    "original": "exps/direct_embeddings/example-0.png",
+    "current": "mist-her2/direct-phikon/example-0.png",
+    "sha256": "dae74d26ddbffdc993db65e3770ce7e8f575db40288a8274864d71e60a725e4c"
+  },
+  {
+    "original": "exps/direct_embeddings/example-2.png",
+    "current": "mist-her2/direct-phikon/example-2.png",
+    "sha256": "3f56940e0a348dbda675c68a2c5f1bd13c24f9f2fec27b822ce8091425c79518"
+  },
+  {
+    "original": "experiments/vp cfm/figures+train.zip",
+    "current": "mist-her2/vp-cfm/figures+train.zip",
+    "sha256": "a92b5c2f2a699c261a4da3b0c133434fef733d4319a91b7b52fed69eed51a5fa"
+  },
+  {
+    "original": "experiments/vp cfm/vp-cfm-final-results.zip",
+    "current": "mist-her2/vp-cfm/vp-cfm-final-results.zip",
+    "sha256": "bc498fe06e1009ca61f8a6d974e0065021ba88edaf498da8203c83ed58f245ee"
+  },
+  {
+    "original": "experiments/vp cfm/links.txt",
+    "current": "mist-her2/vp-cfm/links.txt",
+    "sha256": "96fb3ee4a397140d7cc722ee319780b86457107cf4018003d692bd3c70a589dc"
+  },
+  {
+    "original": "experiments/vp cfm/variance-preserving.ipynb",
+    "current": "mist-her2/vp-cfm/variance-preserving.ipynb",
+    "sha256": "dcc5425889730fc1553bd20a7a7ca6d70af47ab35cf71223fe28bd1f6f565002"
+  },
+  {
+    "original": "experiments/ot cfm/links.txt",
+    "current": "mist-her2/exact-ot-cfm/links.txt",
+    "sha256": "642eaee5bb76e13a1d0411a548c2fcd6b28471de19085f85ef85d5155abb3700"
+  },
+  {
+    "original": "experiments/ot cfm/exact-ot-cfm-512-full-test.zip",
+    "current": "mist-her2/exact-ot-cfm/exact-ot-cfm-512-full-test.zip",
+    "sha256": "d1caae3da53eef7433dc61e5119f71d00a6612e60873963a193856917c1818b9"
+  },
+  {
+    "original": "experiments/ot cfm/ot-cfm.ipynb",
+    "current": "mist-her2/exact-ot-cfm/ot-cfm.ipynb",
+    "sha256": "c77a77d7d134d4a5a0670d86bc0b2b4cd08890b695c07082de794da42412b3a3"
+  },
+  {
+    "original": "experiments/crop 256/metrics.png",
+    "current": "mist-her2/crop-256/metrics.png",
+    "sha256": "62cdbdd2182725d9dd9f79807a283d8c1cb8ac941dfd0a88954f77fc6c9ca168"
+  },
+  {
+    "original": "experiments/crop 256/crop256-dab-examples-panel.png",
+    "current": "mist-her2/crop-256/crop256-dab-examples-panel.png",
+    "sha256": "e7dedd1f201d3a8e71bf56de4023fdfce66fc5319174c9143e815a3ca11c0fe5"
+  },
+  {
+    "original": "experiments/crop 256/desktop.ini",
+    "current": "mist-her2/crop-256/desktop.ini",
+    "sha256": "1d94b0f4efa0b92cd554f3ed3cb111a0680c43196573dc80d1fa9f990f663794"
+  },
+  {
+    "original": "experiments/dab-balanced/mist-dab-ablation-first350-reports.zip",
+    "current": "mist-her2/dab-sampling/mist-dab-ablation-first350-reports.zip",
+    "sha256": "009224c65b2fc59d046d4eb8e9b5a6844661f25c5dda28aff2b6f03b5f601acd"
+  },
+  {
+    "original": "experiments/dab-balanced/dab-sampling-ablation-training.zip",
+    "current": "mist-her2/dab-sampling/dab-sampling-ablation-training.zip",
+    "sha256": "65b66322f2cbc553c6edfb27cc029d6b02aaa32913beba2aa9585f02a6833d9d"
+  },
+  {
+    "original": "experiments/dab-balanced/dab-success-failure-slide-panel.png",
+    "current": "mist-her2/dab-sampling/dab-success-failure-slide-panel.png",
+    "sha256": "4ad0ad4840f555552830a312f79265a2c4fd5a7acfb1f1018ef9d37e4809a5ea"
+  },
+  {
+    "original": "experiments/dab-balanced/links.txt",
+    "current": "mist-her2/dab-sampling/links.txt",
+    "sha256": "62e9cc777668c18b8e8bcf0a938a53980808e8eb6676d968093a31de18116b24"
+  },
+  {
+    "original": "experiments/dab-balanced/sampling-ablations.ipynb",
+    "current": "mist-her2/dab-sampling/sampling-ablations.ipynb",
+    "sha256": "5058a16ce3e02ff14f72bc47579394307dc0f9e01cd95dcbcc45a8f2ef1256bd"
+  },
+  {
+    "original": "experiments/error audit/error audit.ipynb",
+    "current": "mist-her2/error-audit/error-audit.ipynb",
+    "sha256": "c9de2705902b7326b73364b9137fb823f7c38e2031efbd58031e4de60e6b015f"
+  },
+  {
+    "original": "experiments/error audit/links.txt",
+    "current": "mist-her2/error-audit/links.txt",
+    "sha256": "87395c4b4461bb4dff7783bd660520d8405cd829a8a28f33fea640ef839a4cb1"
+  },
+  {
+    "original": "experiments/error audit/mist-her2-audit.zip",
+    "current": "mist-her2/error-audit/mist-her2-audit.zip",
+    "sha256": "6fe80621509ad5ff1e71ae4dbf8643a6ce2388c093e4006fb33b8c4449d66550"
+  },
+  {
+    "original": "experiments/error audit/mist-multimodel-error-audit.zip",
+    "current": "mist-her2/error-audit/mist-multimodel-error-audit.zip",
+    "sha256": "1a32bba6642573e0a8220e6a04ab71a3d024e56a87e3ec02c78d3099a60963cd"
+  }
+]

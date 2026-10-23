@@ -1,0 +1,14 @@
+{
+  "models": {
+    "CFM baseline 256": "/kaggle/input/datasets/marritau/crop256",
+    "VP-CFM 512": "/kaggle/input/notebooks/marritau/notebook4cc13ff1d9/vp-cfm-mist-full-test/predictions"
+  },
+  "test_count": 1053,
+  "audit_size": 256,
+  "dab_threshold": 0.05,
+  "notes": [
+    "Alignment scores are cross-stain morphology proxies, not registration ground truth.",
+    "DAB groups are data-driven strata, not clinical 0/1+/2+/3+ labels.",
+    "Full-test metrics remain primary; selected galleries are diagnostic only."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checkpoint": "/kaggle/input/notebooks/marritau/variance-preserving/runs/her2-vp-cfm-group-disjoint-train/best.pt",
+  "checkpoint_sha256": "de5c8a1da8b37e1b14097a23b2bd2c83ba9e852c82f209c6a1752d8f342eac97",
+  "manifest_sha256": "f38ed2f74b9df285ee26883252df12d9ba5467bacfc3f8b5b92f6733275b7041",
+  "split": "test",
+  "solver": "heun",
+  "steps": 16,
+  "nfe": 32,
+  "seed": 42,
+  "batch_size": 1,
+  "crop_size": null,
+  "count": 1053,
+  "limit": null,
+  "flow_variant": "variance_preserving_trigonometric",
+  "parallel_generation": "two independent single-GPU shards"
+}

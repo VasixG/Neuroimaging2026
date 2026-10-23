@@ -1,0 +1,6 @@
+{"event": "amp_overflow_skipped", "step": 706, "batches_seen": 2828, "scale_before": 65536.0, "scale_after": 32768.0, "consecutive_skips": 1}
+{"event": "amp_overflow_skipped", "step": 5061, "batches_seen": 20252, "scale_before": 131072.0, "scale_after": 65536.0, "consecutive_skips": 1}
+{"event": "amp_overflow_skipped", "step": 7488, "batches_seen": 29964, "scale_before": 131072.0, "scale_after": 65536.0, "consecutive_skips": 1}
+{"event": "amp_overflow_skipped", "step": 9499, "batches_seen": 38012, "scale_before": 131072.0, "scale_after": 65536.0, "consecutive_skips": 1}
+{"event": "amp_overflow_skipped", "step": 11564, "batches_seen": 46276, "scale_before": 131072.0, "scale_after": 65536.0, "consecutive_skips": 1}
+{"event": "amp_overflow_skipped", "step": 13372, "batches_seen": 53512, "scale_before": 65536.0, "scale_after": 32768.0, "consecutive_skips": 1}

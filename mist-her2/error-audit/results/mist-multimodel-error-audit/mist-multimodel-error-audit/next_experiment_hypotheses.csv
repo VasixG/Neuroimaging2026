@@ -1,0 +1,7 @@
+model,evidence,next_test
+CFM baseline 256,SSIM increases with pair-alignment quality,alignment-aware filtering/weighting or shift-tolerant perceptual loss
+CFM baseline 256,error increases with real DAB or strong DAB is underestimated,DAB-stratified sampling plus stain-intensity auxiliary loss
+CFM baseline 256,predictions are systematically less sharp than real IHC,calibrated LPIPS/feature loss while keeping the same split and sampler
+VP-CFM 512,SSIM increases with pair-alignment quality,alignment-aware filtering/weighting or shift-tolerant perceptual loss
+VP-CFM 512,error increases with real DAB or strong DAB is underestimated,DAB-stratified sampling plus stain-intensity auxiliary loss
+VP-CFM 512,predictions are systematically less sharp than real IHC,calibrated LPIPS/feature loss while keeping the same split and sampler

@@ -1,0 +1,71 @@
+Downloading: "https://github.com/mseitzer/pytorch-fid/releases/download/fid_weights/pt_inception-2015-12-05-6726825d.pth" to /kaggle/working/metric-cache/dab-balanced/torch/checkpoints/pt_inception-2015-12-05-6726825d.pth
+  0%|          | 0.00/91.2M [00:00<?, ?B/s] 11%|█         | 9.62M/91.2M [00:00<00:00, 101MB/s] 40%|███▉      | 36.4M/91.2M [00:00<00:00, 206MB/s] 66%|██████▌   | 60.1M/91.2M [00:00<00:00, 225MB/s] 96%|█████████▋| 87.9M/91.2M [00:00<00:00, 251MB/s]100%|██████████| 91.2M/91.2M [00:00<00:00, 225MB/s]
+Downloading: "https://download.pytorch.org/models/inception_v3_google-0cc3c7bd.pth" to /kaggle/working/metric-cache/dab-balanced/torch/checkpoints/inception_v3_google-0cc3c7bd.pth
+  0%|          | 0.00/104M [00:00<?, ?B/s]  9%|▉         | 9.62M/104M [00:00<00:00, 101MB/s] 32%|███▏      | 33.8M/104M [00:00<00:00, 190MB/s] 55%|█████▍    | 57.0M/104M [00:00<00:00, 214MB/s] 77%|███████▋  | 80.4M/104M [00:00<00:00, 226MB/s]100%|█████████▉| 104M/104M [00:00<00:00, 232MB/s] 100%|██████████| 104M/104M [00:00<00:00, 217MB/s]
+/usr/local/lib/python3.13/dist-packages/torchvision/models/feature_extraction.py:175: UserWarning: NOTE: The nodes obtained by tracing the model in eval mode are a subsequence of those obtained in train mode. When choosing nodes for feature extraction, you may need to specify output nodes for train and eval mode separately.
+  warnings.warn(msg + suggestion_msg)
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /kaggle/working/metric-cache/dab-balanced/torch/checkpoints/resnet50-0676ba61.pth
+  0%|          | 0.00/97.8M [00:00<?, ?B/s]  9%|▉         | 8.88M/97.8M [00:00<00:01, 92.9MB/s] 32%|███▏      | 31.6M/97.8M [00:00<00:00, 178MB/s]  57%|█████▋    | 55.2M/97.8M [00:00<00:00, 209MB/s] 81%|████████  | 78.8M/97.8M [00:00<00:00, 224MB/s]100%|██████████| 97.8M/97.8M [00:00<00:00, 204MB/s]
+{
+  "method": "dab-balanced",
+  "subset": "first 350 of DAB-stratified 400",
+  "composition": {
+    "dab_le_1pct": 100,
+    "dab_1_10pct": 100,
+    "dab_10_30pct": 100,
+    "dab_gt_30pct": 50
+  },
+  "metrics": {
+    "count": 350,
+    "marker": "HER2",
+    "split_policy": "group-disjoint",
+    "split": "test",
+    "protocol": "asp",
+    "crop_size": null,
+    "sampling": {},
+    "ssim": 0.16940448485599058,
+    "ssim_group_bootstrap_95ci": [
+      0.15450422132385502,
+      0.18617520310566807
+    ],
+    "mae": 0.1728254658532521,
+    "psnr_db": 13.696884012504041,
+    "perfect_matches": 0,
+    "psnr_note": "null indicates +infinity when any image is an exact match",
+    "feature_metrics": true,
+    "literature_comparable": false,
+    "comparability_note": "Requires the same split, weights and metric protocol; 1000 full patches alone does not establish biological accuracy",
+    "fid": 365.7479288877264,
+    "kid": 0.4547263157269307,
+    "kid_std": 0.014521708165072414,
+    "kid_x1000": 454.7263157269307,
+    "kid_subset_size": 100,
+    "kid_subsets": 100,
+    "kid_seed": 0,
+    "phv_layer1": 0.6403125,
+    "phv_layer2": 0.6159654017857142,
+    "phv_layer3": 0.4653794642857143,
+    "phv_layer4": 0.8982435825892857,
+    "phv_avg": 0.6549752371651786
+  },
+  "biology": {
+    "count": 350,
+    "dab_threshold": 0.05,
+    "mean_dab_fraction_error": 0.13151245798911423,
+    "failure_ids": [
+      "train/25M2102060_12_26",
+      "train/25M2102060_27_21",
+      "train/25M2102060_30_20",
+      "train/25M2102060_6_7",
+      "train/25M2102060_4_9",
+      "test/25M2102060_36_26",
+      "train/25M2102060_15_22",
+      "train/25M2102060_4_18",
+      "train/25M2102060_7_12",
+      "test/25M2102060_29_23",
+      "test/25M2102060_12_13",
+      "train/25M2102060_30_22"
+    ],
+    "interpretation": "Exploratory regional color proxies. No tumor labels or cell membrane/nucleus annotations are assumed. These scores do not establish correct HER2 membrane localization, ER/Ki67 nuclear localization or clinical validity. Review galleries with a pathologist; calibrate the DAB threshold on validation."
+  }
+}

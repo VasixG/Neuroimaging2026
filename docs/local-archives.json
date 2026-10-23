@@ -1,0 +1,37 @@
+[
+  {
+    "path": "mist-her2/dab-sampling/dab-sampling-ablation-training.zip",
+    "bytes": 776450,
+    "sha256": "65b66322f2cbc553c6edfb27cc029d6b02aaa32913beba2aa9585f02a6833d9d"
+  },
+  {
+    "path": "mist-her2/dab-sampling/mist-dab-ablation-first350-reports.zip",
+    "bytes": 150326359,
+    "sha256": "009224c65b2fc59d046d4eb8e9b5a6844661f25c5dda28aff2b6f03b5f601acd"
+  },
+  {
+    "path": "mist-her2/error-audit/mist-her2-audit.zip",
+    "bytes": 8875415,
+    "sha256": "6fe80621509ad5ff1e71ae4dbf8643a6ce2388c093e4006fb33b8c4449d66550"
+  },
+  {
+    "path": "mist-her2/error-audit/mist-multimodel-error-audit.zip",
+    "bytes": 105484224,
+    "sha256": "1a32bba6642573e0a8220e6a04ab71a3d024e56a87e3ec02c78d3099a60963cd"
+  },
+  {
+    "path": "mist-her2/exact-ot-cfm/exact-ot-cfm-512-full-test.zip",
+    "bytes": 76989747,
+    "sha256": "d1caae3da53eef7433dc61e5119f71d00a6612e60873963a193856917c1818b9"
+  },
+  {
+    "path": "mist-her2/vp-cfm/figures+train.zip",
+    "bytes": 16597556,
+    "sha256": "a92b5c2f2a699c261a4da3b0c133434fef733d4319a91b7b52fed69eed51a5fa"
+  },
+  {
+    "path": "mist-her2/vp-cfm/vp-cfm-final-results.zip",
+    "bytes": 72350611,
+    "sha256": "bc498fe06e1009ca61f8a6d974e0065021ba88edaf498da8203c83ed58f245ee"
+  }
+]

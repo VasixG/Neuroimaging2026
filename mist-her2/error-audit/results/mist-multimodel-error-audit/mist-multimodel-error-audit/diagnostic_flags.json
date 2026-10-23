@@ -1,0 +1,20 @@
+{
+  "CFM baseline 256": {
+    "alignment_association": 0.42884035670162746,
+    "dab_error_association": 0.9481618991873989,
+    "mean_high_dab_signed_error": -0.35706275005286237,
+    "median_sharpness_ratio": 0.4951874301679873,
+    "candidate_alignment_fix": true,
+    "candidate_dab_balancing": true,
+    "candidate_sharpness_or_perceptual_loss": true
+  },
+  "VP-CFM 512": {
+    "alignment_association": 0.3958529958847417,
+    "dab_error_association": 0.7897034777681926,
+    "mean_high_dab_signed_error": -0.34982191123853723,
+    "median_sharpness_ratio": 0.6008798188289433,
+    "candidate_alignment_fix": true,
+    "candidate_dab_balancing": true,
+    "candidate_sharpness_or_perceptual_loss": true
+  }
+}

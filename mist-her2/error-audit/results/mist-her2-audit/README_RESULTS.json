@@ -1,0 +1,12 @@
+{
+  "manifest_sha256": "f38ed2f74b9df285ee26883252df12d9ba5467bacfc3f8b5b92f6733275b7041",
+  "audit_size": 256,
+  "dab_threshold": 0.05,
+  "models": {},
+  "interpretation_limits": [
+    "Nuclear-channel SSIM after translation is a registration-quality proxy, not ground-truth deformation.",
+    "DAB strata are color-based groups, not clinical HER2 0/1+/2+/3+ labels.",
+    "The secondary clean subset must not replace the full-test headline result.",
+    "Per-stratum SSIM/MAE/PSNR are computed at 256x256 for analysis and are not the headline full-resolution metrics."
+  ]
+}

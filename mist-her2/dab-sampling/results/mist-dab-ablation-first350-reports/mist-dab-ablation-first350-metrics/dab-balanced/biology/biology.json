@@ -1,0 +1,20 @@
+{
+  "count": 350,
+  "dab_threshold": 0.05,
+  "mean_dab_fraction_error": 0.13151245798911423,
+  "failure_ids": [
+    "train/25M2102060_12_26",
+    "train/25M2102060_27_21",
+    "train/25M2102060_30_20",
+    "train/25M2102060_6_7",
+    "train/25M2102060_4_9",
+    "test/25M2102060_36_26",
+    "train/25M2102060_15_22",
+    "train/25M2102060_4_18",
+    "train/25M2102060_7_12",
+    "test/25M2102060_29_23",
+    "test/25M2102060_12_13",
+    "train/25M2102060_30_22"
+  ],
+  "interpretation": "Exploratory regional color proxies. No tumor labels or cell membrane/nucleus annotations are assumed. These scores do not establish correct HER2 membrane localization, ER/Ki67 nuclear localization or clinical validity. Review galleries with a pathologist; calibrate the DAB threshold on validation."
+}

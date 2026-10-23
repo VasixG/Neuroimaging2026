@@ -1,0 +1,32 @@
+{
+  "model": {
+    "channels": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "blocks_per_level": 2,
+    "dropout": 0.0
+  },
+  "train": {
+    "crop_size": 512,
+    "batch_size": 2,
+    "accumulation_steps": 4,
+    "max_steps": 20000,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "warmup_steps": 500,
+    "grad_clip": 1.0,
+    "ema_decay": 0.999,
+    "num_workers": 2,
+    "mixed_precision": true,
+    "seed": 42,
+    "log_every": 100,
+    "validate_every": 500,
+    "checkpoint_every": 200,
+    "validation_samples": 16,
+    "validation_steps": 8,
+    "validation_solver": "heun"
+  }
+}

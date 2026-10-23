@@ -1,0 +1,12 @@
+{
+  "mode": "train",
+  "split_policy": "group-disjoint",
+  "start_step": 0,
+  "stop_step": 15000,
+  "checkpoint": "/kaggle/working/runs/her2-vp-cfm-group-disjoint-train/best.pt",
+  "device": "cuda:0",
+  "dataset_bundle_version": 1,
+  "visualization_directory": "/kaggle/working/figures/her2-vp-cfm-group-disjoint-train",
+  "training_schedule_completed": false,
+  "flow_variant": "variance_preserving_trigonometric"
+}

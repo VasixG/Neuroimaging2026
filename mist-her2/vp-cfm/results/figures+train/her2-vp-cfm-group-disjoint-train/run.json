@@ -1,0 +1,14 @@
+{
+  "torch": "2.11.0+cu128",
+  "device": "cuda:0",
+  "gpu": "Tesla T4",
+  "manifest": "/kaggle/input/datasets/vasiliygorelov/mist-her2/mist-her2-flow/manifests/group-disjoint/pairs.jsonl",
+  "manifest_sha256": "f38ed2f74b9df285ee26883252df12d9ba5467bacfc3f8b5b92f6733275b7041",
+  "train_pairs": 3805,
+  "validation_pairs": 16,
+  "limit_train": null,
+  "parameters": 10865827,
+  "selection": "Maximum SSIM on a fixed subset of the validation split, EMA weights",
+  "amp_nonfinite_policy": "Skip overflowing updates; EMA/LR/step advance only on success",
+  "flow_variant": "variance_preserving_trigonometric"
+}

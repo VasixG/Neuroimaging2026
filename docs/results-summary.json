@@ -1,0 +1,38 @@
+[
+  {
+    "method": "Exact OT-CFM",
+    "scope": "full test",
+    "count": 1053,
+    "ssim": 0.16815404074682325,
+    "fid": 186.57779107789875,
+    "kid_x1000": 191.55415370764317,
+    "source": "mist-her2/exact-ot-cfm/results/exact-ot-cfm-512-full-test/exact-ot-cfm-512-full-test/evaluation/metrics.json"
+  },
+  {
+    "method": "VP-CFM",
+    "scope": "full test",
+    "count": 1053,
+    "ssim": 0.1446618392456751,
+    "fid": 367.4051551847363,
+    "kid_x1000": 469.09400796231813,
+    "source": "mist-her2/vp-cfm/results/vp-cfm-final-results/evaluation/metrics.json"
+  },
+  {
+    "method": "dab-balanced",
+    "scope": "selected test subset",
+    "count": 350,
+    "ssim": 0.16940448485599058,
+    "fid": 365.7479288877264,
+    "kid_x1000": 454.7263157269307,
+    "source": "mist-her2/dab-sampling/results/mist-dab-ablation-first350-reports/mist-dab-ablation-first350-metrics/dab-balanced/evaluation/metrics.json"
+  },
+  {
+    "method": "dab-alignment-balanced",
+    "scope": "selected test subset",
+    "count": 350,
+    "ssim": 0.17574877787601792,
+    "fid": 327.9000171023437,
+    "kid_x1000": 382.8305658930074,
+    "source": "mist-her2/dab-sampling/results/mist-dab-ablation-first350-reports/mist-dab-ablation-first350-metrics/dab-alignment-balanced/evaluation/metrics.json"
+  }
+]

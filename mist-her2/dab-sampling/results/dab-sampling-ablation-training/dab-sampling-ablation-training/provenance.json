@@ -1,0 +1,26 @@
+{
+  "experiment": "DAB-aware sampling ablation",
+  "variants": [
+    "her2-cfm-512-dab-balanced",
+    "her2-cfm-512-dab-alignment-balanced"
+  ],
+  "source_output": "/kaggle/input/notebooks",
+  "included_run_files": [
+    "config.json",
+    "history.jsonl",
+    "run.json",
+    "session.json"
+  ],
+  "included_root_files": [
+    "training-dab.log",
+    "training-dab-alignment.log",
+    "mist-train-pair-scores.json"
+  ],
+  "excluded": [
+    "model checkpoints",
+    "generated images",
+    "validation images",
+    "dependencies",
+    "runtime source tree"
+  ]
+}

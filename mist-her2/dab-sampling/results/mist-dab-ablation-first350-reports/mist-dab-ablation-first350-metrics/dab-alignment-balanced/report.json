@@ -1,0 +1,63 @@
+{
+  "method": "dab-alignment-balanced",
+  "subset": "first 350 of DAB-stratified 400",
+  "composition": {
+    "dab_le_1pct": 100,
+    "dab_1_10pct": 100,
+    "dab_10_30pct": 100,
+    "dab_gt_30pct": 50
+  },
+  "metrics": {
+    "count": 350,
+    "marker": "HER2",
+    "split_policy": "group-disjoint",
+    "split": "test",
+    "protocol": "asp",
+    "crop_size": null,
+    "sampling": {},
+    "ssim": 0.17574877787601792,
+    "ssim_group_bootstrap_95ci": [
+      0.15924273271153994,
+      0.194243041685651
+    ],
+    "mae": 0.1701261745598915,
+    "psnr_db": 13.7301342789816,
+    "perfect_matches": 0,
+    "psnr_note": "null indicates +infinity when any image is an exact match",
+    "feature_metrics": true,
+    "literature_comparable": false,
+    "comparability_note": "Requires the same split, weights and metric protocol; 1000 full patches alone does not establish biological accuracy",
+    "fid": 327.9000171023437,
+    "kid": 0.3828305658930074,
+    "kid_std": 0.014552725714775755,
+    "kid_x1000": 382.8305658930074,
+    "kid_subset_size": 100,
+    "kid_subsets": 100,
+    "kid_seed": 0,
+    "phv_layer1": 0.6163058035714286,
+    "phv_layer2": 0.5880580357142857,
+    "phv_layer3": 0.43956473214285713,
+    "phv_layer4": 0.8938127790178572,
+    "phv_avg": 0.6344353376116072
+  },
+  "biology": {
+    "count": 350,
+    "dab_threshold": 0.05,
+    "mean_dab_fraction_error": 0.1314195974192966,
+    "failure_ids": [
+      "train/25M2102060_12_26",
+      "train/25M2102060_27_21",
+      "train/25M2102060_30_20",
+      "train/25M2102060_6_7",
+      "train/25M2102060_4_9",
+      "test/25M2102060_36_26",
+      "train/25M2102060_15_22",
+      "train/25M2102060_7_12",
+      "train/25M2102060_4_18",
+      "test/25M2102060_29_23",
+      "train/25M2102060_30_22",
+      "test/25M2102060_12_13"
+    ],
+    "interpretation": "Exploratory regional color proxies. No tumor labels or cell membrane/nucleus annotations are assumed. These scores do not establish correct HER2 membrane localization, ER/Ki67 nuclear localization or clinical validity. Review galleries with a pathologist; calibrate the DAB threshold on validation."
+  }
+}

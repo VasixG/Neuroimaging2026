@@ -1,0 +1,394 @@
+=== Cell 3, output 0 ===
+Extracted: her2-vp-cfm-group-disjoint-train-step15000.zip -> /kaggle/working/extracted-audit-inputs/her2-vp-cfm-group-disjoint-train-step15000-1910b4e07f
+Dataset: /kaggle/input/datasets/vasiliygorelov/mist-her2/mist-her2-flow
+Test records: 1053
+
+
+=== Cell 5, output 0 ===
+                                                root  present  coverage  \
+0            /kaggle/input/datasets/marritau/crop256     1053       1.0   
+1  /kaggle/input/notebooks/marritau/notebook4cc13...     1053       1.0   
+
+                                            metadata  
+0                                                 {}  
+1  {"batch_size": 1, "checkpoint": "/kaggle/input...  
+
+=== Cell 5, output 1 ===
+Accepted full prediction sets:
+  CFM baseline 256 -> /kaggle/input/datasets/marritau/crop256
+  VP-CFM 512 -> /kaggle/input/notebooks/marritau/notebook4cc13ff1d9/vp-cfm-mist-full-test/predictions
+
+
+=== Cell 8, output 0 ===
+Processed 100/1053
+Processed 200/1053
+Processed 300/1053
+Processed 400/1053
+Processed 500/1053
+Processed 600/1053
+Processed 700/1053
+Processed 800/1053
+Processed 900/1053
+Processed 1000/1053
+Processed 1053/1053
+
+
+=== Cell 8, output 1 ===
+                       id       group  he_tissue_fraction  \
+0  train/25M2102060_10_11  25M2102060            0.978897   
+1  train/25M2102060_10_11  25M2102060            0.978897   
+2  train/25M2102060_10_13  25M2102060            0.936646   
+3  train/25M2102060_10_13  25M2102060            0.936646   
+4  train/25M2102060_10_14  25M2102060            0.943298   
+
+   real_tissue_fraction  translation_dy_256  translation_dx_256  \
+0              0.970184               -25.0               -15.0   
+1              0.970184               -25.0               -15.0   
+2              0.987778               120.0              -113.0   
+3              0.987778               120.0              -113.0   
+4              0.957169              -117.0              -118.0   
+
+   translation_magnitude_256  nuclear_ssim_raw  nuclear_ssim_aligned  \
+0                  29.154759          0.016224              0.018863   
+1                  29.154759          0.016224              0.018863   
+2                 164.830216          0.024224              0.023025   
+3                 164.830216          0.024224              0.023025   
+4                 166.171598          0.009207              0.023765   
+
+   nuclear_edge_corr_aligned  ...  dab_fraction_abs_error  pred_dab_mean  \
+0                  -0.016257  ...                0.577576       0.015912   
+1                  -0.016257  ...                0.573715       0.020319   
+2                   0.018149  ...                0.564499       0.016736   
+3                   0.018149  ...                0.557144       0.020429   
+4                  -0.015071  ...                0.409851       0.015843   
+
+   dab_mean_abs_error sharpness  sharpness_ratio  pred_real_nuclear_ssim  \
+0            0.069991  0.018847         0.348421                0.019486   
+1            0.065584  0.024263         0.448539                0.019303   
+2            0.067912  0.016449         0.239348                0.025892   
+3            0.064218  0.023794         0.346222                0.024857   
+4            0.051854  0.017962         0.320786                0.026214   
+
+   he_pred_nuclear_ssim  pred_real_edge_corr  alignment_stratum  dab_stratum  
+0              0.035879            -0.014232                 Q2         high  
+1              0.036433            -0.015478                 Q2         high  
+2              0.018320            -0.013815                 Q2         high  
+3              0.022124            -0.011730                 Q2         high  
+4              0.017077            -0.008477                 Q2         high  
+
+[5 rows x 30 columns]
+
+=== Cell 10, output 0 ===
+              model  count      ssim  \
+0  CFM baseline 256   1053  0.088344   
+1        VP-CFM 512   1053  0.083047   
+
+                    ssim_group_bootstrap_95ci       mae  \
+0  [0.07437068148975204, 0.10242864549538787]  0.160259   
+1  [0.07020998157891019, 0.09571050201390252]  0.166583   
+
+                     mae_group_bootstrap_95ci    psnr_db  \
+0  [0.13378096448879837, 0.18753220364732465]  14.272737   
+1  [0.14194634258766625, 0.19022194670100487]  14.018789   
+
+   dab_fraction_abs_error dab_fraction_abs_error_group_bootstrap_95ci  \
+0                0.127597  [0.03267834050662239, 0.23206816058024612]   
+1                0.125730  [0.03134281355538118, 0.22854338406034078]   
+
+   dab_mean_abs_error  sharpness_ratio  pred_real_nuclear_ssim  \
+0            0.016848         0.791474                0.023322   
+1            0.016047         0.923040                0.022840   
+
+   he_pred_nuclear_ssim  
+0              0.027733  
+1              0.027585  
+
+=== Cell 10, output 1 ===
+            model_a     model_b                  metric  mean_a_minus_b  \
+0  CFM baseline 256  VP-CFM 512                    ssim        0.005297   
+1  CFM baseline 256  VP-CFM 512                     mae       -0.006324   
+2  CFM baseline 256  VP-CFM 512  dab_fraction_abs_error        0.001866   
+3  CFM baseline 256  VP-CFM 512         sharpness_ratio       -0.131566   
+
+   median_a_minus_b     wilcoxon_p  
+0          0.003647  1.650562e-122  
+1         -0.006873   4.828679e-44  
+2          0.004379   7.829089e-16  
+3         -0.094996  2.340547e-155  
+
+=== Cell 12, output 0 ===
+               model alignment_stratum dab_stratum  count      ssim       mae  \
+0   CFM baseline 256         Q1 lowest         low     94  0.090986  0.154197   
+1   CFM baseline 256         Q1 lowest      medium     91  0.084236  0.132405   
+2   CFM baseline 256         Q1 lowest        high     79  0.046965  0.233086   
+3   CFM baseline 256                Q2         low     80  0.092982  0.147417   
+4   CFM baseline 256                Q2      medium     91  0.085729  0.126519   
+5   CFM baseline 256                Q2        high     92  0.051343  0.228392   
+6   CFM baseline 256                Q3         low     77  0.104667  0.134999   
+7   CFM baseline 256                Q3      medium     89  0.087443  0.129192   
+8   CFM baseline 256                Q3        high     97  0.066825  0.203492   
+9   CFM baseline 256        Q4 highest         low    100  0.126836  0.120389   
+10  CFM baseline 256        Q4 highest      medium     80  0.130292  0.128079   
+11  CFM baseline 256        Q4 highest        high     83  0.092809  0.187466   
+12        VP-CFM 512         Q1 lowest         low     94  0.089820  0.168242   
+13        VP-CFM 512         Q1 lowest      medium     91  0.080594  0.131218   
+14        VP-CFM 512         Q1 lowest        high     79  0.045716  0.225920   
+15        VP-CFM 512                Q2         low     80  0.091446  0.162949   
+16        VP-CFM 512                Q2      medium     91  0.080513  0.128518   
+17        VP-CFM 512                Q2        high     92  0.049545  0.223971   
+18        VP-CFM 512                Q3         low     77  0.098440  0.152245   
+19        VP-CFM 512                Q3      medium     89  0.082110  0.132460   
+20        VP-CFM 512                Q3        high     97  0.063424  0.208074   
+21        VP-CFM 512        Q4 highest         low    100  0.115375  0.138916   
+22        VP-CFM 512        Q4 highest      medium     80  0.113140  0.135661   
+23        VP-CFM 512        Q4 highest        high     83  0.087118  0.193160   
+
+    dab_error  sharpness_ratio  
+0    0.002018         1.077621  
+1    0.020475         0.724050  
+2    0.447742         0.356591  
+3    0.002021         1.018584  
+4    0.025636         0.577572  
+5    0.436671         0.312473  
+6    0.001652         0.837698  
+7    0.028935         0.568171  
+8    0.304248         1.014188  
+9    0.001224         0.799422  
+10   0.020728         0.720586  
+11   0.244237         1.496845  
+12   0.008739         1.170990  
+13   0.015968         0.864663  
+14   0.440890         0.416641  
+15   0.008945         1.100735  
+16   0.020380         0.709524  
+17   0.429986         0.372719  
+18   0.008521         0.965709  
+19   0.023567         0.694597  
+20   0.297082         1.172081  
+21   0.007868         0.985131  
+22   0.015269         0.968804  
+23   0.235922         1.656452  
+
+=== Cell 12, output 1 ===
+              model                  predictor                    outcome  \
+0  CFM baseline 256       nuclear_ssim_aligned                       ssim   
+1  CFM baseline 256  translation_magnitude_256                       ssim   
+2  CFM baseline 256          real_dab_fraction     dab_fraction_abs_error   
+3  CFM baseline 256          real_dab_fraction  dab_fraction_signed_error   
+4  CFM baseline 256       he_pred_nuclear_ssim                       ssim   
+5        VP-CFM 512       nuclear_ssim_aligned                       ssim   
+6        VP-CFM 512  translation_magnitude_256                       ssim   
+7        VP-CFM 512          real_dab_fraction     dab_fraction_abs_error   
+8        VP-CFM 512          real_dab_fraction  dab_fraction_signed_error   
+9        VP-CFM 512       he_pred_nuclear_ssim                       ssim   
+
+   spearman_rho        p_value  
+0      0.428840   2.381993e-48  
+1     -0.064140   3.743210e-02  
+2      0.948162   0.000000e+00  
+3     -0.982481   0.000000e+00  
+4      0.356177   7.508548e-33  
+5      0.395853   7.852591e-41  
+6     -0.058436   5.801027e-02  
+7      0.789703  3.006388e-225  
+8     -0.960860   0.000000e+00  
+9      0.219422   6.034943e-13  
+
+=== Cell 13, output 0 ===
+<Figure size 1700x1000 with 6 Axes>
+
+=== Cell 15, output 0 ===
+<Figure size 1200x1800 with 24 Axes>
+
+=== Cell 15, output 1 ===
+<Figure size 1200x1800 with 24 Axes>
+
+=== Cell 15, output 2 ===
+<Figure size 1200x1800 with 24 Axes>
+
+=== Cell 15, output 3 ===
+<Figure size 1200x1800 with 24 Axes>
+
+=== Cell 15, output 4 ===
+<Figure size 1200x1800 with 24 Axes>
+
+=== Cell 17, output 0 ===
+    experiment               file  \
+0         base  example-0 (1).png   
+1         base      example-1.png   
+2      base_OT      example-0.png   
+3      base_OT      example-1.png   
+4      base_OT      example-2.png   
+..         ...                ...   
+133       8500      example-1.png   
+134       9000      example-0.png   
+135       9000      example-1.png   
+136       9500      example-0.png   
+137       9500      example-1.png   
+
+                                                  path  
+0    /kaggle/input/datasets/marritau/expsmist/exps/...  
+1    /kaggle/input/datasets/marritau/expsmist/exps/...  
+2    /kaggle/input/datasets/marritau/expsmist/exps/...  
+3    /kaggle/input/datasets/marritau/expsmist/exps/...  
+4    /kaggle/input/datasets/marritau/expsmist/exps/...  
+..                                                 ...  
+133  /kaggle/working/extracted-audit-inputs/her2-vp...  
+134  /kaggle/working/extracted-audit-inputs/her2-vp...  
+135  /kaggle/working/extracted-audit-inputs/her2-vp...  
+136  /kaggle/working/extracted-audit-inputs/her2-vp...  
+137  /kaggle/working/extracted-audit-inputs/her2-vp...  
+
+[138 rows x 3 columns]
+
+=== Cell 17, output 1 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 2 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 3 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 4 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 5 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 6 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 7 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 8 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 9 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 10 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 11 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 12 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 13 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 14 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 15 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 16 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 17 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 18 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 19 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 20 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 21 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 22 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 23 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 24 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 25 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 26 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 27 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 28 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 29 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 30 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 31 ===
+<Figure size 1400x500 with 2 Axes>
+
+=== Cell 17, output 32 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 33 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 34 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 17, output 35 ===
+<Figure size 2800x500 with 4 Axes>
+
+=== Cell 19, output 0 ===
+{
+  "CFM baseline 256": {
+    "alignment_association": 0.42884035670162746,
+    "dab_error_association": 0.9481618991873989,
+    "mean_high_dab_signed_error": -0.35706275005286237,
+    "median_sharpness_ratio": 0.4951874301679873,
+    "candidate_alignment_fix": true,
+    "candidate_dab_balancing": true,
+    "candidate_sharpness_or_perceptual_loss": true
+  },
+  "VP-CFM 512": {
+    "alignment_association": 0.3958529958847417,
+    "dab_error_association": 0.7897034777681926,
+    "mean_high_dab_signed_error": -0.34982191123853723,
+    "median_sharpness_ratio": 0.6008798188289433,
+    "candidate_alignment_fix": true,
+    "candidate_dab_balancing": true,
+    "candidate_sharpness_or_perceptual_loss": true
+  }
+}
+
+
+=== Cell 19, output 1 ===
+              model                                           evidence  \
+0  CFM baseline 256         SSIM increases with pair-alignment quality   
+1  CFM baseline 256  error increases with real DAB or strong DAB is...   
+2  CFM baseline 256  predictions are systematically less sharp than...   
+3        VP-CFM 512         SSIM increases with pair-alignment quality   
+4        VP-CFM 512  error increases with real DAB or strong DAB is...   
+5        VP-CFM 512  predictions are systematically less sharp than...   
+
+                                           next_test  
+0  alignment-aware filtering/weighting or shift-t...  
+1  DAB-stratified sampling plus stain-intensity a...  
+2  calibrated LPIPS/feature loss while keeping th...  
+3  alignment-aware filtering/weighting or shift-t...  
+4  DAB-stratified sampling plus stain-intensity a...  
+5  calibrated LPIPS/feature loss while keeping th...  
+
+=== Cell 20, output 0 ===
+Saved: /kaggle/working/mist-multimodel-error-audit.zip (100.6 MB)
+
+
+=== Cell 20, output 1 ===
+/kaggle/working/mist-multimodel-error-audit.zip

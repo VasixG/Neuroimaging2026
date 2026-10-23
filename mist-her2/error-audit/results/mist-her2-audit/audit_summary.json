@@ -1,0 +1,16 @@
+{
+  "count": 1053,
+  "adequate_tissue_count": 1053,
+  "low_tissue_count": 0,
+  "alignment_quartiles": {
+    "q25": 0.018669537649612176,
+    "q50": 0.028409275540461094,
+    "q75": 0.044991997325375094
+  },
+  "dab_tertiles": {
+    "q33": 0.004115029932714224,
+    "q67": 0.10956509823941249
+  },
+  "secondary_clean_subset_count": 263,
+  "warning": "The clean subset is diagnostic only; the full test split remains the primary benchmark."
+}

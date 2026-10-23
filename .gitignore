@@ -1,0 +1,18 @@
+# OS and notebook caches
+.DS_Store
+desktop.ini
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+# Raw archives stay local. Reviewable records are extracted under results/.
+*.zip
+# Training data, checkpoints and credentials
+*.pt
+*.pth
+*.ckpt
+.env
+kaggle.json
+
+# Local execution snapshots; figures and logs are versioned separately
+*.executed.ipynb
