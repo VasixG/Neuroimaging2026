@@ -30,10 +30,6 @@ New artifacts go to `outputs/` (gitignored). Override `HER2_BASELINE_OUT` and `H
 
 Portable code has new configuration identities; the recorded server checkpoint hashes are provenance, not compatible resume configurations. Do not mix archived checkpoints with new runs. The notebook is a consolidated review/execution workflow, not a claim that the original server jobs ran inside its cells.
 
-### Validation
-
-```bash
-python tests/check_her2match.py
-```
+### Packaging validation
 
 The submission was checked by executing the notebook in review mode, validating the manifests and saved metrics, and checking the portable model/data/stain helpers. Full training was not repeated for packaging.
