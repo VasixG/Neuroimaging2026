@@ -1,0 +1,12 @@
+{
+  "checkpoint_sha256": "3c649a800f8ab0a1904296d6c9ff026d4b579f751ffd4622e76b093c56b3c576",
+  "count": 252,
+  "ssim": 0.319209365209478,
+  "psnr_db": 17.736870794793276,
+  "lpips": 0.5019546433810204,
+  "fid": 221.79132170532958,
+  "kid": 0.21874146870991956,
+  "optimizer_updates": 20000,
+  "selected_update": 6500,
+  "best_validation_ssim": 0.3847719808174848
+}

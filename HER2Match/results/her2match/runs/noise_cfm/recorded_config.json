@@ -1,0 +1,61 @@
+{
+  "seed": 42,
+  "architecture": {
+    "channels": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "blocks_per_level": 2,
+    "dropout": 0.0
+  },
+  "crop": 512,
+  "microbatch": 2,
+  "accumulation": 4,
+  "updates": 20000,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "warmup": 500,
+  "ema": 0.999,
+  "grad_clip": 1.0,
+  "checkpoint_every": 500,
+  "validation_samples": 16,
+  "solver": "heun",
+  "ode_steps": 16,
+  "precision": "bfloat16 autocast, FP32 states/losses/LPIPS",
+  "lpips_weight": 0.1,
+  "lpips_net": "alex",
+  "lpips_version": "0.1",
+  "lpips_crop": 256,
+  "test_batch_size": 2,
+  "test_spatial": "native 1024x1024, no cropping or resizing; PNG quantization before metrics",
+  "feature_extractor": "pytorch-fid 0.3.0 TensorFlow-compatible InceptionV3 pool3 2048",
+  "feature_preprocessing": "RGB uint8 /255; internal bilinear 299x299 align_corners=False then [-1,1]",
+  "kid_subset_size": 100,
+  "kid_subsets": 100,
+  "kid_seed": 42,
+  "memory_cap_GiB": 18,
+  "grouping": "Released HER2match slide splits; patient identities unavailable",
+  "experiment": "noise_cfm",
+  "initial_sha256": "faaba93803d76b9cd7deb164093a2994b915d73605f7461bd0af4cf5995911cf",
+  "splits": {
+    "HER2match.jsonl": "f2ba7360772ef20bea12612ab568934edb203fc0ec5866acf2db8d920bc3231c"
+  },
+  "implementation_sha256": "b5c8935e4fac3eb8564b007148b0c500235d13cd2e2b1e8fbb3075611e24bec4",
+  "bundle_sha256": {
+    "__init__.py": "b950658dd52584acaec61266f084b70d2d1b1deea4340a6288dba551388025ce",
+    "biology.py": "ee421bc449251a17b528ffd56755c79ae4a6f057f8e4163db4f0a86b0ae3a641",
+    "cli.py": "4794a9331546e4d36f09280ef345bfd30c5a1fd0186f25928bf691aff44d30e9",
+    "config.py": "baa1ee9aa8463484a7638c44d14264a3a8d0d713bd220f0597541bd1e4819cef",
+    "data.py": "4d4898b77af5416ca81d81c64a33550a40fa603c75adcf8f11b90f04707e1dd2",
+    "download.py": "855b7080a2f6c8e5dcf6bad746676b3eb3ba26c4c6268a21ff4b666baf776d02",
+    "experiments.py": "31fb7e95a0c89b3cfcfa5bf16e5943c6a071e8a72fff89be9656374d603f7056",
+    "flow.py": "5db9d6fcc38366b90c9c640c064a06e0ddf5bc41bcacd0ea4be33905327246bb",
+    "inference.py": "bed13674ce3584ff5fc33886e51a3f4524a6620b03cdb3157472c04189091cfb",
+    "metrics.py": "8bb150b47e9445e243cc377457980bcef9ec9e63b66369cbd0589a513dc16e0b",
+    "model.py": "c498949ce446e59dab3d98dac76248d2c602ffbf7e2145cf212246658c4e65e1",
+    "runtime.py": "563f4d31155c50239b547dbcdf9076f14c4a769dd928267c2f024e86fafc4888",
+    "train.py": "b7edfa746a4bb4e5f58d7dd25913b4929b5c12b10f0ff20af1dc402f10d5b56d"
+  }
+}

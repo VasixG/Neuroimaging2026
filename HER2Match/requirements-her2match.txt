@@ -1,0 +1,14 @@
+# Install the appropriate CUDA build of torch/torchvision first.
+# Versions below record the environment used for the completed experiments.
+torch==2.14.1
+torchvision==0.29.1
+numpy==2.4.6
+scipy==1.17.1
+scikit-image==0.26.0
+pillow==12.3.0
+matplotlib==3.11.2
+lpips==0.1.4
+pytorch-fid==0.3.0
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0

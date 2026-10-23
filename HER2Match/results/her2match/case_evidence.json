@@ -1,0 +1,436 @@
+[
+  {
+    "id": "test/wsi016_id209_x36864_y40960",
+    "roi": [
+      192,
+      512,
+      448,
+      768
+    ],
+    "selection": "Largest Direct excess-DAB area among25 score0-slide patches; deliberately selected failure.",
+    "metrics": [
+      {
+        "model": "noise_cfm",
+        "ssim": 0.23182939061908522,
+        "lpips": 0.48654767870903015,
+        "gt_stain": 0.0007598420488648117,
+        "pred_stain": 0.03320392966270447,
+        "missing": 0.0007546642445959151,
+        "false": 0.033198755234479904,
+        "edge_ratio": 1.0299542702663187
+      },
+      {
+        "model": "direct_cfm",
+        "ssim": 0.19061599175947444,
+        "lpips": 0.5630077123641968,
+        "gt_stain": 0.0007598420488648117,
+        "pred_stain": 0.3789009749889374,
+        "missing": 0.000674408336635679,
+        "false": 0.37881556153297424,
+        "edge_ratio": 1.1818876222375525
+      },
+      {
+        "model": "direct_cfm_lpips",
+        "ssim": 0.25087358683475475,
+        "lpips": 0.4495811462402344,
+        "gt_stain": 0.0007598420488648117,
+        "pred_stain": 0.0021449034102261066,
+        "missing": 0.0007585475686937571,
+        "false": 0.002143608871847391,
+        "edge_ratio": 0.9663899592584858
+      },
+      {
+        "model": "direct_cfm_stain_sampling",
+        "ssim": 0.27154386009761794,
+        "lpips": 0.41415324807167053,
+        "gt_stain": 0.0007598420488648117,
+        "pred_stain": 0.06007800251245499,
+        "missing": 0.0007391308317892253,
+        "false": 0.06005729362368584,
+        "edge_ratio": 0.8701358825834838
+      },
+      {
+        "model": "direct_cfm_stain_loss",
+        "ssim": 0.26691269226686387,
+        "lpips": 0.41709035634994507,
+        "gt_stain": 0.0007598420488648117,
+        "pred_stain": 0.05091847851872444,
+        "missing": 0.000740425253752619,
+        "false": 0.05089905858039856,
+        "edge_ratio": 0.8898008530507294
+      }
+    ]
+  },
+  {
+    "id": "test/wsi009_id23_x26624_y77824",
+    "roi": [
+      0,
+      320,
+      256,
+      576
+    ],
+    "selection": "Largest GT DAB coverage among25 score3-slide patches; selection uses GT only.",
+    "metrics": [
+      {
+        "model": "noise_cfm",
+        "ssim": 0.5449755837351553,
+        "lpips": 0.48135051131248474,
+        "gt_stain": 0.7335202097892761,
+        "pred_stain": 0.023815996944904327,
+        "missing": 0.7103438377380371,
+        "false": 0.0006395799573510885,
+        "edge_ratio": 0.9084769446183402
+      },
+      {
+        "model": "direct_cfm",
+        "ssim": 0.6302595628543638,
+        "lpips": 0.36935222148895264,
+        "gt_stain": 0.7335202097892761,
+        "pred_stain": 4.4570031604962423e-05,
+        "missing": 0.7335113286972046,
+        "false": 3.565602673916146e-05,
+        "edge_ratio": 0.6065097623177879
+      },
+      {
+        "model": "direct_cfm_lpips",
+        "ssim": 0.6220169127652706,
+        "lpips": 0.39449965953826904,
+        "gt_stain": 0.7335202097892761,
+        "pred_stain": 1.1142507901240606e-05,
+        "missing": 0.7335090637207031,
+        "false": 0.0,
+        "edge_ratio": 0.6705570661913342
+      },
+      {
+        "model": "direct_cfm_stain_sampling",
+        "ssim": 0.6359749941781199,
+        "lpips": 0.37517163157463074,
+        "gt_stain": 0.7335202097892761,
+        "pred_stain": 0.00016936611791606992,
+        "missing": 0.7334756851196289,
+        "false": 0.0001247960899490863,
+        "edge_ratio": 0.5371045174116039
+      },
+      {
+        "model": "direct_cfm_stain_loss",
+        "ssim": 0.6256928789261854,
+        "lpips": 0.3759200870990753,
+        "gt_stain": 0.7335202097892761,
+        "pred_stain": 0.0054553719237446785,
+        "missing": 0.7311869859695435,
+        "false": 0.003122130874544382,
+        "edge_ratio": 0.6183162331487119
+      }
+    ]
+  },
+  {
+    "id": "test/wsi008_id2067_x72704_y110592",
+    "roi": [
+      768,
+      0,
+      1024,
+      256
+    ],
+    "selection": "Lowest Direct/GT edge-strength ratio among weak-DAB patches with at least50% GT optical tissue. This flags smoothness, not a validated cell-detail score.",
+    "metrics": [
+      {
+        "model": "noise_cfm",
+        "ssim": 0.2702809738088477,
+        "lpips": 0.5472074747085571,
+        "gt_stain": 0.0018059639260172844,
+        "pred_stain": 0.00014694195124320686,
+        "missing": 0.0018059639260172844,
+        "false": 0.00014694195124320686,
+        "edge_ratio": 0.6366524407867495
+      },
+      {
+        "model": "direct_cfm",
+        "ssim": 0.3564526560731785,
+        "lpips": 0.548904299736023,
+        "gt_stain": 0.0018059639260172844,
+        "pred_stain": 1.5800209212102345e-06,
+        "missing": 0.0018059639260172844,
+        "false": 1.5800209212102345e-06,
+        "edge_ratio": 0.34151537438553964
+      },
+      {
+        "model": "direct_cfm_lpips",
+        "ssim": 0.347848479007754,
+        "lpips": 0.5919766426086426,
+        "gt_stain": 0.0018059639260172844,
+        "pred_stain": 0.0,
+        "missing": 0.0018059639260172844,
+        "false": 0.0,
+        "edge_ratio": 0.40794336763312317
+      },
+      {
+        "model": "direct_cfm_stain_sampling",
+        "ssim": 0.3624519584803907,
+        "lpips": 0.546028733253479,
+        "gt_stain": 0.0018059639260172844,
+        "pred_stain": 3.160041842420469e-06,
+        "missing": 0.0018059639260172844,
+        "false": 3.160041842420469e-06,
+        "edge_ratio": 0.3265910220094335
+      },
+      {
+        "model": "direct_cfm_stain_loss",
+        "ssim": 0.3464660482360562,
+        "lpips": 0.5196435451507568,
+        "gt_stain": 0.0018059639260172844,
+        "pred_stain": 0.0034965863451361656,
+        "missing": 0.0017759435577318072,
+        "false": 0.0034665658604353666,
+        "edge_ratio": 0.3849413357671818
+      }
+    ]
+  },
+  {
+    "id": "test/wsi001_id597_x38912_y44032",
+    "roi": [
+      384,
+      384,
+      640,
+      640
+    ],
+    "selection": "First predeclared manifest example in class; center256crop, not selected by new model output.",
+    "metrics": [
+      {
+        "model": "noise_cfm",
+        "ssim": 0.25899165960684384,
+        "lpips": 0.48657166957855225,
+        "gt_stain": 0.007290699984878302,
+        "pred_stain": 0.0019965420942753553,
+        "missing": 0.007290699984878302,
+        "false": 0.0019965420942753553,
+        "edge_ratio": 0.5841067888711269
+      },
+      {
+        "model": "direct_cfm",
+        "ssim": 0.31675198035821356,
+        "lpips": 0.45326948165893555,
+        "gt_stain": 0.007290699984878302,
+        "pred_stain": 3.7117712054168805e-05,
+        "missing": 0.007290699984878302,
+        "false": 3.7117712054168805e-05,
+        "edge_ratio": 0.41511205171350607
+      },
+      {
+        "model": "direct_cfm_lpips",
+        "ssim": 0.3054549095820831,
+        "lpips": 0.4907035231590271,
+        "gt_stain": 0.007290699984878302,
+        "pred_stain": 5.86069154451252e-06,
+        "missing": 0.007290699984878302,
+        "false": 5.86069154451252e-06,
+        "edge_ratio": 0.48554501636542285
+      },
+      {
+        "model": "direct_cfm_stain_sampling",
+        "ssim": 0.315077407914625,
+        "lpips": 0.4467219114303589,
+        "gt_stain": 0.007290699984878302,
+        "pred_stain": 0.00010549244325375184,
+        "missing": 0.007290699984878302,
+        "false": 0.00010549244325375184,
+        "edge_ratio": 0.42425755658586056
+      },
+      {
+        "model": "direct_cfm_stain_loss",
+        "ssim": 0.3027745887655158,
+        "lpips": 0.42662250995635986,
+        "gt_stain": 0.007290699984878302,
+        "pred_stain": 0.00250837579369545,
+        "missing": 0.0072809322737157345,
+        "false": 0.0024986080825328827,
+        "edge_ratio": 0.47961053662778375
+      }
+    ]
+  },
+  {
+    "id": "test/wsi008_id1852_x67584_y97280",
+    "roi": [
+      384,
+      384,
+      640,
+      640
+    ],
+    "selection": "First predeclared manifest example in class; center256crop, not selected by new model output.",
+    "metrics": [
+      {
+        "model": "noise_cfm",
+        "ssim": 0.32297647030225185,
+        "lpips": 0.5851374864578247,
+        "gt_stain": 0.00570162758231163,
+        "pred_stain": 0.001550635090097785,
+        "missing": 0.005697635933756828,
+        "false": 0.0015466437907889485,
+        "edge_ratio": 0.6931196164279255
+      },
+      {
+        "model": "direct_cfm",
+        "ssim": 0.44176578598292077,
+        "lpips": 0.5527474880218506,
+        "gt_stain": 0.00570162758231163,
+        "pred_stain": 1.7961025150725618e-05,
+        "missing": 0.00570162758231163,
+        "false": 1.7961025150725618e-05,
+        "edge_ratio": 0.3825948817398753
+      },
+      {
+        "model": "direct_cfm_lpips",
+        "ssim": 0.4166767020412821,
+        "lpips": 0.5763335824012756,
+        "gt_stain": 0.00570162758231163,
+        "pred_stain": 0.0,
+        "missing": 0.00570162758231163,
+        "false": 0.0,
+        "edge_ratio": 0.47396837671917386
+      },
+      {
+        "model": "direct_cfm_stain_sampling",
+        "ssim": 0.4496945270448263,
+        "lpips": 0.5606666803359985,
+        "gt_stain": 0.00570162758231163,
+        "pred_stain": 9.978347407013644e-06,
+        "missing": 0.005699631758034229,
+        "false": 7.982677743711974e-06,
+        "edge_ratio": 0.3748976526436016
+      },
+      {
+        "model": "direct_cfm_stain_loss",
+        "ssim": 0.4207999678872591,
+        "lpips": 0.5323770642280579,
+        "gt_stain": 0.00570162758231163,
+        "pred_stain": 0.0025843919720500708,
+        "missing": 0.005555943585932255,
+        "false": 0.0024387079756706953,
+        "edge_ratio": 0.44726056488840243
+      }
+    ]
+  },
+  {
+    "id": "test/wsi012_id1715_x44032_y86016",
+    "roi": [
+      384,
+      384,
+      640,
+      640
+    ],
+    "selection": "First predeclared manifest example in class; center256crop, not selected by new model output.",
+    "metrics": [
+      {
+        "model": "noise_cfm",
+        "ssim": 0.363535158022857,
+        "lpips": 0.485978901386261,
+        "gt_stain": 0.028338126838207245,
+        "pred_stain": 0.0010349577059969306,
+        "missing": 0.028335534036159515,
+        "false": 0.0010323638562113047,
+        "edge_ratio": 0.6096630066506783
+      },
+      {
+        "model": "direct_cfm",
+        "ssim": 0.43464908633431093,
+        "lpips": 0.44910967350006104,
+        "gt_stain": 0.028338126838207245,
+        "pred_stain": 1.0375515557825565e-05,
+        "missing": 0.028338126838207245,
+        "false": 1.0375515557825565e-05,
+        "edge_ratio": 0.3801559277771102
+      },
+      {
+        "model": "direct_cfm_lpips",
+        "ssim": 0.42539954612804337,
+        "lpips": 0.4859149158000946,
+        "gt_stain": 0.028338126838207245,
+        "pred_stain": 7.781636668369174e-06,
+        "missing": 0.028338126838207245,
+        "false": 7.781636668369174e-06,
+        "edge_ratio": 0.4365025045328403
+      },
+      {
+        "model": "direct_cfm_stain_sampling",
+        "ssim": 0.4384752319824406,
+        "lpips": 0.46482548117637634,
+        "gt_stain": 0.028338126838207245,
+        "pred_stain": 7.522248779423535e-05,
+        "missing": 0.028330346569418907,
+        "false": 6.744085112586617e-05,
+        "edge_ratio": 0.35805954206809704
+      },
+      {
+        "model": "direct_cfm_stain_loss",
+        "ssim": 0.4256374396698884,
+        "lpips": 0.43132638931274414,
+        "gt_stain": 0.028338126838207245,
+        "pred_stain": 0.0026535382494330406,
+        "missing": 0.02813580445945263,
+        "false": 0.002451215637847781,
+        "edge_ratio": 0.40944477647731325
+      }
+    ]
+  },
+  {
+    "id": "test/wsi009_id396_x48128_y78848",
+    "roi": [
+      384,
+      384,
+      640,
+      640
+    ],
+    "selection": "First predeclared manifest example in class; center256crop, not selected by new model output.",
+    "metrics": [
+      {
+        "model": "noise_cfm",
+        "ssim": 0.4074556992456821,
+        "lpips": 0.5337338447570801,
+        "gt_stain": 0.016737261787056923,
+        "pred_stain": 0.0025141711812466383,
+        "missing": 0.016679491847753525,
+        "false": 0.002456400543451309,
+        "edge_ratio": 0.7137545984185136
+      },
+      {
+        "model": "direct_cfm",
+        "ssim": 0.4859332882117984,
+        "lpips": 0.4418838918209076,
+        "gt_stain": 0.016737261787056923,
+        "pred_stain": 0.00010860849579330534,
+        "missing": 0.016730329021811485,
+        "false": 0.00010167603613808751,
+        "edge_ratio": 0.541551812893518
+      },
+      {
+        "model": "direct_cfm_lpips",
+        "ssim": 0.48307957143971997,
+        "lpips": 0.49518418312072754,
+        "gt_stain": 0.016737261787056923,
+        "pred_stain": 2.310819036210887e-05,
+        "missing": 0.016737261787056923,
+        "false": 2.310819036210887e-05,
+        "edge_ratio": 0.5750037628990621
+      },
+      {
+        "model": "direct_cfm_stain_sampling",
+        "ssim": 0.49903330232306864,
+        "lpips": 0.4622201919555664,
+        "gt_stain": 0.016737261787056923,
+        "pred_stain": 0.0001247842301381752,
+        "missing": 0.01673264056444168,
+        "false": 0.00012016259279334918,
+        "edge_ratio": 0.5006687495463369
+      },
+      {
+        "model": "direct_cfm_stain_loss",
+        "ssim": 0.4773906596417514,
+        "lpips": 0.47693532705307007,
+        "gt_stain": 0.016737261787056923,
+        "pred_stain": 0.02550913207232952,
+        "missing": 0.01565811038017273,
+        "false": 0.02442997880280018,
+        "edge_ratio": 0.5487711240024421
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "purpose": "Recorded results from completed runs; portable reruns use new output directories and configuration identities.",
+  "original_initial_weights_sha256": "faaba93803d76b9cd7deb164093a2994b915d73605f7461bd0af4cf5995911cf",
+  "original_source_sha256": {
+    "scripts/controlled_fm.py": "47efb2cff2419c8c7ce525dc32a5aedc91cf511c6c7c65959467c1677659da55",
+    "stain-fix-experiments/source/base_fm.py": "4bf2a323f8866fdf120fce5c3da99cb4625a7f18b146af82fc53d69a2c115f29",
+    "stain-fix-experiments/source/stain_fix_experiments.py": "7acc56b012b94a4980494e86c8233760f9b3689d19c5f8c07eb30bf0cff5afcd"
+  }
+}

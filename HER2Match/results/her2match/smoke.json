@@ -1,0 +1,42 @@
+[
+  {
+    "experiment": "direct_cfm_stain_sampling",
+    "updates": 4,
+    "seconds_per_update": 0.21197422298913202,
+    "training_hours_excluding_io_validation": 1.1776345721618446,
+    "peak_reserved_GiB": 4.734375,
+    "finite_gradients": true,
+    "synchronized_crops": true,
+    "correct_source": true,
+    "dab_matches_skimage": true,
+    "stain_gradient_verified": false,
+    "last_losses": {
+      "fm_loss": 0.16872946918010712,
+      "lpips_raw": 0.0,
+      "lpips_weighted": 0.0,
+      "total_loss": 0.16872946918010712,
+      "stain_raw": 0.0,
+      "stain_weighted": 0.0
+    }
+  },
+  {
+    "experiment": "direct_cfm_stain_loss",
+    "updates": 4,
+    "seconds_per_update": 0.2202870346760998,
+    "training_hours_excluding_io_validation": 1.2238168593116656,
+    "peak_reserved_GiB": 4.759765625,
+    "finite_gradients": true,
+    "synchronized_crops": true,
+    "correct_source": true,
+    "dab_matches_skimage": true,
+    "stain_gradient_verified": true,
+    "last_losses": {
+      "fm_loss": 0.34633001685142517,
+      "lpips_raw": 0.0,
+      "lpips_weighted": 0.0,
+      "stain_raw": 0.2772495746612549,
+      "stain_weighted": 0.02772495746612549,
+      "total_loss": 0.3740549683570862
+    }
+  }
+]
